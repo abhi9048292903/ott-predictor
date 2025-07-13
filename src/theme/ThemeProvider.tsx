@@ -1,4 +1,4 @@
-import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { ThemeProvider } from '@mui/material/styles';
 import { CssBaseline } from '@mui/material';
 import { createContext, useMemo, useState, type ReactNode } from 'react';
 import { lightTheme, darkTheme } from './index'; // Import your themes

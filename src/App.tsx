@@ -1,9 +1,7 @@
-import { useState } from 'react'
 import './App.css'
 import AskMe from './screens/ask-me/AskMe'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
