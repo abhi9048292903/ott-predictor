@@ -18,7 +18,7 @@ type ThemeContextProviderProps = {
 };
 
 export function ThemeContextProvider({ children }: ThemeContextProviderProps) {
-  const [mode, setMode] = useState<'light' | 'dark'>('light');
+  const [mode, setMode] = useState<'light' | 'dark'>('dark');
 
   const toggleColorMode = () => {
     setMode((prevMode) => (prevMode === 'light' ? 'dark' : 'light'));

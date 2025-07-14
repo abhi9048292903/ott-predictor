@@ -1,8 +1,10 @@
+import { Container } from '@mui/material';
+
 const Home = () => (
-  <div>
+  <Container>
     <h1>Welcome to OTT Predictor</h1>
     <p>Find out where to watch your favorite movies and shows!</p>
-  </div>
+  </Container>
 );
 
 export default Home; 

@@ -1,8 +1,14 @@
 import ExpandingTextarea from './ExpondingInput';
+
+import Grid from '@mui/material/Grid';
+
 const AskMe = () => {  return (
-    <div>
+     <Grid container spacing={0}>
+       <Grid size={10}>
       <ExpandingTextarea />
-    </div>
+
+       </Grid>
+     </Grid>
   );
 }
 
