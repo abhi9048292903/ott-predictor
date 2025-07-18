@@ -1,0 +1,15 @@
+.app-root{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-content{
+    flex: 1;
+    padding: 20px;
+}
+
+.app-footer{
+    padding: 20px;
+    text-align: left;
+}

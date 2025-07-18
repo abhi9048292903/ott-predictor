@@ -11,9 +11,10 @@ import { Container } from '@mui/material';
 
 function App() {
   return (
-    <>
+    <div className="app-root">
     <Router>
       <Tabs />
+      <div className="app-content">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/ask-me" element={<AskMe />} />
@@ -21,13 +22,12 @@ function App() {
         <Route path="/platforms" element={<Platforms />} />
         <Route path="/*" element={<Home />} />
       </Routes>
-      <Container>
-      <footer>
+      </div>
+      <div className="app-footer">
         <p>© 2025 OTT Predictor. All rights reserved.</p>
-      </footer>
-      </Container>
+      </div>
     </Router>
-    </>
+    </div>
   )
 }
 
